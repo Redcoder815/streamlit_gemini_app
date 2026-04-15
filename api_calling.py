@@ -8,8 +8,8 @@ import io
 
 load_dotenv()
 
-api_key = os.environ.get("GOOGLE_GEMINI_KEY")
-# api_key = os.getenv("GOOGLE_GEMINI_KEY")
+# api_key = os.environ.get("GOOGLE_GEMINI_KEY")
+api_key = os.getenv("GOOGLE_GEMINI_KEY")
 
 client = genai.Client(api_key = api_key)
 
